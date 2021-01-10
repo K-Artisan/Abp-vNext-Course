@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Zo.Abp.Course.Product</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.2.1" />
+    <ProjectReference Include="..\Zo.Abp.Course.Product.Application.Contracts\Zo.Abp.Course.Product.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

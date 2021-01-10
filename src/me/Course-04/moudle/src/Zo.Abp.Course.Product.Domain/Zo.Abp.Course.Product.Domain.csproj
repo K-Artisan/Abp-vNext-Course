@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Zo.Abp.Course.Product</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="3.2.1" />
+    <ProjectReference Include="..\Zo.Abp.Course.Product.Domain.Shared\Zo.Abp.Course.Product.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

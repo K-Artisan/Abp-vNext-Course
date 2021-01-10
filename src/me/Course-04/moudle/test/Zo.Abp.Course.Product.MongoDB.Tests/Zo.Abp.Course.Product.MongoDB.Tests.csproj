@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Zo.Abp.Course.Product</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <PackageReference Include="Mongo2Go" Version="2.2.12" />
+    <ProjectReference Include="..\..\src\Zo.Abp.Course.Product.MongoDB\Zo.Abp.Course.Product.MongoDB.csproj" />
+    <ProjectReference Include="..\Zo.Abp.Course.Product.TestBase\Zo.Abp.Course.Product.TestBase.csproj" />
+  </ItemGroup>
+
+</Project>
