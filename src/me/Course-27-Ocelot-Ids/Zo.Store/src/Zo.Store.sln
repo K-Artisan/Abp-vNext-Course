@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{6F0BB29E-1635-4662-AEED-E3F86EFADE97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateways", "gateways", "{D50F3620-0507-4DFF-8AD4-9FD375A4BE7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{DF67313D-F872-4228-A373-A562660E98D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateways", "gateways", "{C4F58971-E6C9-4EB8-A343-9E4E58CC7F6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identityServer", "identityServer", "{061D5E1A-181B-4FA0-8E8D-EE330CDBF42C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zo.Store.IdentityServer.Domain", "modules\identityServer\Zo.Store.IdentityServer.Domain\Zo.Store.IdentityServer.Domain.csproj", "{C71C822E-9053-4D0F-ACCA-A729857EF715}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zo.Store.IdentityServer.EntityFrameworkCore", "modules\identityServer\Zo.Store.IdentityServer.EntityFrameworkCore\Zo.Store.IdentityServer.EntityFrameworkCore.csproj", "{79062C93-9F87-4885-9031-C3F63237B3C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zo.Store.IdentityServer.Application.Contracts", "modules\identityServer\Zo.Store.IdentityServer.Application.Contracts\Zo.Store.IdentityServer.Application.Contracts.csproj", "{095272C5-2B9C-40BE-80FD-550C9C7219B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zo.Store.IdentityServer.Application", "modules\identityServer\Zo.Store.IdentityServer.Application\Zo.Store.IdentityServer.Application.csproj", "{F7DF471F-2B6D-403E-A8AE-841B61717D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zo.Store.IdentityServer.HttpApi", "modules\identityServer\Zo.Store.IdentityServer.HttpApi\Zo.Store.IdentityServer.HttpApi.csproj", "{7521ACA1-1830-4A1F-9C07-A9A41FC3AD06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C71C822E-9053-4D0F-ACCA-A729857EF715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71C822E-9053-4D0F-ACCA-A729857EF715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71C822E-9053-4D0F-ACCA-A729857EF715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71C822E-9053-4D0F-ACCA-A729857EF715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79062C93-9F87-4885-9031-C3F63237B3C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79062C93-9F87-4885-9031-C3F63237B3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79062C93-9F87-4885-9031-C3F63237B3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79062C93-9F87-4885-9031-C3F63237B3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{095272C5-2B9C-40BE-80FD-550C9C7219B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{095272C5-2B9C-40BE-80FD-550C9C7219B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{095272C5-2B9C-40BE-80FD-550C9C7219B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{095272C5-2B9C-40BE-80FD-550C9C7219B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DF471F-2B6D-403E-A8AE-841B61717D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DF471F-2B6D-403E-A8AE-841B61717D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DF471F-2B6D-403E-A8AE-841B61717D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DF471F-2B6D-403E-A8AE-841B61717D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7521ACA1-1830-4A1F-9C07-A9A41FC3AD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7521ACA1-1830-4A1F-9C07-A9A41FC3AD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7521ACA1-1830-4A1F-9C07-A9A41FC3AD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7521ACA1-1830-4A1F-9C07-A9A41FC3AD06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4F58971-E6C9-4EB8-A343-9E4E58CC7F6B} = {DF67313D-F872-4228-A373-A562660E98D3}
+		{061D5E1A-181B-4FA0-8E8D-EE330CDBF42C} = {DF67313D-F872-4228-A373-A562660E98D3}
+		{C71C822E-9053-4D0F-ACCA-A729857EF715} = {061D5E1A-181B-4FA0-8E8D-EE330CDBF42C}
+		{79062C93-9F87-4885-9031-C3F63237B3C3} = {061D5E1A-181B-4FA0-8E8D-EE330CDBF42C}
+		{095272C5-2B9C-40BE-80FD-550C9C7219B6} = {061D5E1A-181B-4FA0-8E8D-EE330CDBF42C}
+		{F7DF471F-2B6D-403E-A8AE-841B61717D7E} = {061D5E1A-181B-4FA0-8E8D-EE330CDBF42C}
+		{7521ACA1-1830-4A1F-9C07-A9A41FC3AD06} = {061D5E1A-181B-4FA0-8E8D-EE330CDBF42C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7A9C26A-554C-475B-8F88-955954402FB9}
+	EndGlobalSection
+EndGlobal
