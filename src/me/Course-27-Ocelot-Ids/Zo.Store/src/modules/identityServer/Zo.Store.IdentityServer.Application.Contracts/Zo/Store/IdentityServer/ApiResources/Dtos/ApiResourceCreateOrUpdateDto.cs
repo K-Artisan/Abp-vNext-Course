@@ -8,7 +8,7 @@ using Volo.Abp.IdentityServer.ApiResources;
 using Volo.Abp.Validation;
 //using Volo.Abp.IdentityServer.ApiResources;
 
-namespace Zo.Store.IdentityServer.ApiResources.Dtos
+namespace Zo.Store.IdentityServer.ApiResources
 {
     public class ApiResourceCreateOrUpdateDto
     {

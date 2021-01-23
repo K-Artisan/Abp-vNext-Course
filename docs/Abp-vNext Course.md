@@ -715,3 +715,120 @@ abp new Zo.Abp.Course.Product -v 3.2.1
 
 ​		不要定义属性`ProductId`，领域层不要关注数据库设计
 
+
+
+## 数据访问
+
+### 教程
+
+Course-05
+
+
+
+### 概述
+
+- 数据访问
+
+- 数据仓储
+
+  
+
+- 工作单元
+
+  abp的事务可以嵌套，自动处理为最外层的事务有效
+
+  
+
+- 数据过滤
+
+- 数据提供者
+
+
+
+### 数据仓储
+
+##### 
+
+### 数据过滤
+
+- IDataFilter
+
+- ISoftDelete
+
+- IMultiTenant
+
+- 自定义数据过滤
+
+
+
+##### IDataFilter
+
+
+
+##### ISoftDelete
+
+
+
+##### IMultiTenant
+
+
+
+##### 自定义数据过滤
+
+
+
+
+
+## 项目实战
+
+![1610524349177](images/Abp-vNext%20Course/1610524349177.png)
+
+
+
+### 后台网关
+
+
+
+### 身份管理服务
+
+创建身份管理服务项目
+
+```powershell
+abp new Zo.Store.Identity -t module -v3.3.1
+```
+
+并将如下项目添加到解决方案`Store.sln`中
+
+```powershell
+ dotnet sln add modules\identity\src\Zo.Store.Identity.Application
+ dotnet sln add modules\identity\src\Zo.Store.Identity.Application.Contracts
+ dotnet sln add modules\identity\src\Zo.Store.Identity.Domain
+ dotnet sln add modules\identity\src\Zo.Store.Identity.Domain.Shared
+ dotnet sln add modules\identity\src\Zo.Store.Identity.EntityFrameworkCore
+ dotnet sln add modules\identity\src\Zo.Store.Identity.HttpApi
+ dotnet sln add modules\identity\src\Zo.Store.Identity.HttpApi.Client
+```
+
+
+
+#### 后台网关
+
+创建后台网关项目
+
+```powershell
+dotnet new web
+```
+
+并添加到解决方案`Store.sln`中
+
+```powershell
+xxx\StStore\src\gateway\backend-gatewaycd> cd ../../
+xxx\Store\src>dotnet sln add gateway\backend-gateway\backend-gateway.csproj
+```
+
+添加`ocelot`包
+
+```powershell
+dotnet add package ocelot -v 16.0.0
+```
+

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Volo.Abp.IdentityServer.IdentityResources;
 using Volo.Abp.Validation;
 
-namespace Zo.Store.IdentityServer.IdentityResources.Dtos
+namespace Zo.Store.IdentityServer.IdentityResources
 {
     public class IdentityResourceCreateOrUpdateDto
     {

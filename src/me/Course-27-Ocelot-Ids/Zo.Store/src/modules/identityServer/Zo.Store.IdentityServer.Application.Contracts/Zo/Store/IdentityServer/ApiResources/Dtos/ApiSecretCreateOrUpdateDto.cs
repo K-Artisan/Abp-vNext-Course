@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Zo.Store.IdentityServer.ApiResources.Dtos
+namespace Zo.Store.IdentityServer.ApiResources
 {
     public class ApiSecretCreateOrUpdateDto : SecretBaseDto
     {

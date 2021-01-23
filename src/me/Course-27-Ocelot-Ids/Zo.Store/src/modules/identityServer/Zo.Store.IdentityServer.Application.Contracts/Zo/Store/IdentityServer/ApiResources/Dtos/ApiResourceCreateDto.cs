@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Volo.Abp.IdentityServer.ApiResources;
 using Volo.Abp.Validation;
 
-namespace Zo.Store.IdentityServer.ApiResources.Dtos
+namespace Zo.Store.IdentityServer.ApiResources
 {
     public class ApiResourceCreateDto : ApiResourceCreateOrUpdateDto
     {

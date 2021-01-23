@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Zo.Store.IdentityServer.Clients.Dtos
+namespace Zo.Store.IdentityServer.Clients
 {
     public class ClientSecretDto : SecretBaseDto
     {

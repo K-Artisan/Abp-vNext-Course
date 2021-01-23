@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Volo.Abp.Application.Dtos;
 
-namespace Zo.Store.IdentityServer.ApiResources.Dtos
+namespace Zo.Store.IdentityServer.ApiResources
 {
     public class ApiResourceDto : ExtensibleFullAuditedEntityDto<Guid>
     {

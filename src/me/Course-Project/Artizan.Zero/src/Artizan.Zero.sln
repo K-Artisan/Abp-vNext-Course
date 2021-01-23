@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{07E8FFE0-E528-45A9-AA21-2C70F91CDAD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{8D6D90C9-B1B7-457C-8F18-DC63F7653DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateways", "gateways", "{84EDD819-EBE8-478F-8738-A0B019CA3E2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{539E3470-1943-4DE4-A6D3-90604F155EC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "account", "account", "{7EC3153E-592B-4F15-86D0-2811E222BCBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artizan.Zero.Account.Domain.Shared", "modules\account\Artizan.Zero.Account.Domain.Shared\Artizan.Zero.Account.Domain.Shared.csproj", "{0C14BEFA-BAE6-427C-A555-528280B280EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identity", "identity", "{D3E55E3E-A07D-4CB7-BD9A-29C4B2279A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artizan.Zero.Identity.Domain.Shared", "modules\identity\Artizan.Zero.Identity.Domain.Shared\Artizan.Zero.Identity.Domain.Shared.csproj", "{EC035B94-F9C2-4274-B9B8-1434E37AEB8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artizan.Zero.Identity.Domain", "modules\identity\Artizan.Zero.Identity.Domain\Artizan.Zero.Identity.Domain.csproj", "{F699FF24-FDE9-427D-9987-50C9C46A6559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artizan.Zero.Identity.EntityFrameworkCore", "modules\identity\Artizan.Zero.Identity.EntityFrameworkCore\Artizan.Zero.Identity.EntityFrameworkCore.csproj", "{4718D06C-4707-4F53-BB55-D5B9B1144917}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Artizan.Zero.Identity.Application.Contracts", "modules\identity\Artizan.Zero.Identity.Application.Contracts\Artizan.Zero.Identity.Application.Contracts.csproj", "{957E16BE-BE68-41ED-99F5-463F3A888317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Artizan.Zero.Identity.Application", "modules\identity\Artizan.Zero.Identity.Application\Artizan.Zero.Identity.Application.csproj", "{9070D52D-B73B-449B-B61E-85ECFA91276D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C14BEFA-BAE6-427C-A555-528280B280EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C14BEFA-BAE6-427C-A555-528280B280EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C14BEFA-BAE6-427C-A555-528280B280EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C14BEFA-BAE6-427C-A555-528280B280EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC035B94-F9C2-4274-B9B8-1434E37AEB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC035B94-F9C2-4274-B9B8-1434E37AEB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC035B94-F9C2-4274-B9B8-1434E37AEB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC035B94-F9C2-4274-B9B8-1434E37AEB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F699FF24-FDE9-427D-9987-50C9C46A6559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F699FF24-FDE9-427D-9987-50C9C46A6559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F699FF24-FDE9-427D-9987-50C9C46A6559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F699FF24-FDE9-427D-9987-50C9C46A6559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4718D06C-4707-4F53-BB55-D5B9B1144917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4718D06C-4707-4F53-BB55-D5B9B1144917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4718D06C-4707-4F53-BB55-D5B9B1144917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4718D06C-4707-4F53-BB55-D5B9B1144917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957E16BE-BE68-41ED-99F5-463F3A888317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957E16BE-BE68-41ED-99F5-463F3A888317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957E16BE-BE68-41ED-99F5-463F3A888317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957E16BE-BE68-41ED-99F5-463F3A888317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9070D52D-B73B-449B-B61E-85ECFA91276D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9070D52D-B73B-449B-B61E-85ECFA91276D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9070D52D-B73B-449B-B61E-85ECFA91276D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9070D52D-B73B-449B-B61E-85ECFA91276D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EC3153E-592B-4F15-86D0-2811E222BCBA} = {539E3470-1943-4DE4-A6D3-90604F155EC0}
+		{0C14BEFA-BAE6-427C-A555-528280B280EB} = {7EC3153E-592B-4F15-86D0-2811E222BCBA}
+		{D3E55E3E-A07D-4CB7-BD9A-29C4B2279A56} = {539E3470-1943-4DE4-A6D3-90604F155EC0}
+		{EC035B94-F9C2-4274-B9B8-1434E37AEB8A} = {D3E55E3E-A07D-4CB7-BD9A-29C4B2279A56}
+		{F699FF24-FDE9-427D-9987-50C9C46A6559} = {D3E55E3E-A07D-4CB7-BD9A-29C4B2279A56}
+		{4718D06C-4707-4F53-BB55-D5B9B1144917} = {D3E55E3E-A07D-4CB7-BD9A-29C4B2279A56}
+		{957E16BE-BE68-41ED-99F5-463F3A888317} = {D3E55E3E-A07D-4CB7-BD9A-29C4B2279A56}
+		{9070D52D-B73B-449B-B61E-85ECFA91276D} = {D3E55E3E-A07D-4CB7-BD9A-29C4B2279A56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B382D73-6591-4002-BCAB-EA8916B8A2F1}
+	EndGlobalSection
+EndGlobal

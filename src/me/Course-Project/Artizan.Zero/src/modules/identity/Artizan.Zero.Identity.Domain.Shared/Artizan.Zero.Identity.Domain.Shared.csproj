@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Artizan\Zero\Identity\Localization\en.json" />
+    <None Remove="Artizan\Zero\Identity\Localization\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Artizan\Zero\Identity\Localization\en.json" />
+    <EmbeddedResource Include="Artizan\Zero\Identity\Localization\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="4.1.2" />
+  </ItemGroup>
+
+</Project>

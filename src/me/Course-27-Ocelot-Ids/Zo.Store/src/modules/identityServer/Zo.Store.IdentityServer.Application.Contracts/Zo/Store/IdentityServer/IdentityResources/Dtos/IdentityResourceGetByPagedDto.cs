@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Volo.Abp.Application.Dtos;
 
-namespace Zo.Store.IdentityServer.IdentityResources.Dtos
+namespace Zo.Store.IdentityServer.IdentityResources
 {
     public class IdentityResourceGetByPagedDto : PagedAndSortedResultRequestDto
     {

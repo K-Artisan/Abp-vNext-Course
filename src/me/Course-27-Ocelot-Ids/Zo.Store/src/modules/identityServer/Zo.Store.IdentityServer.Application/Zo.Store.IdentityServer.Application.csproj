@@ -5,4 +5,19 @@
     <RootNamespace></RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Zo\Store\IdentityServer\Clients\" />
+    <Folder Include="Zo\Store\IdentityServer\Grants\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="4.1.1" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Zo.Store.IdentityServer.Application.Contracts\Zo.Store.IdentityServer.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Zo.Store.IdentityServer.Domain\Zo.Store.IdentityServer.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
